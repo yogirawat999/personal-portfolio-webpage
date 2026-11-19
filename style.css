@@ -1,0 +1,117 @@
+/* Page ke basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 20px;
+}
+
+/* Header */
+header {
+    background-color: #173b57;
+    color: white;
+    padding: 15px;
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #173b57;
+}
+
+/* Profile image */
+.profile-image {
+    width: 200px;
+    height: auto;
+    border: 3px solid #173b57;
+}
+
+/* Projects list */
+.project-list li {
+    margin-bottom: 10px;
+}
+
+/* Skills table */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.skills-table th {
+    background-color: #173b57;
+    color: white;
+}
+
+.skills-table tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+/* Contact form */
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 90%;
+    margin: 5px 0 15px;
+    padding: 8px;
+}
+
+button {
+    background-color: #173b57;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
+
+/* Section separator */
+hr {
+    border: 1px solid #ccc;
+}
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background-color: #173b57;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
